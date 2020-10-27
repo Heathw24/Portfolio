@@ -4,13 +4,24 @@
     border-radius: 50%;
 }
 
+/* body{
+    
+} */
+
 footer {
     margin-left: 25%;
+}
+
+.navItem{
+    padding: 25px;
+    font-size: 20px;
+   white-space: nowrap;
 }
 
 .navLinks {
     display: flex;
     justify-content: center;
+    align-items: center;
    flex-direction: column;
 }
 
@@ -44,7 +55,23 @@ footer {
     margin-left: 25%;
 }
 
-.site-main::before {
+.start-sidebar {
+    top:0;
+    bottom:0;
+    left:0;
+    position:fixed;
+    z-index:2;
+    width:25%;
+    font-size: 14px;
+    color:#fff;
+    text-align: left;
+    background-color: rgba(95, 10, 112, 0.8);
+    background-image: url(charlotte-panorama-north-carolina.jpg.jpg);
+    background-size: cover;
+  }
+
+  .start-sidebar::before { 
+     z-index: -5;
     position: fixed;
     top:0;
     bottom: 0;
@@ -53,27 +80,18 @@ footer {
     content: " ";
     display: block;
     width: 25%;
-    background: url(charlotte-panorama-north-carolina.jpg.jpg);
-    background-size: cover;
-
+    /* background: url(charlotte-panorama-north-carolina.jpg.jpg);
+    background-size: cover; */
+    background-color: rgba(95, 10, 112, 0.8);
 }
 
-.start-sidebar {
-  top:0;
-  bottom:0;
-  left:0;
-  position:fixed;
-  z-index:2;
-  width:25%;
-  font-size: 14px;
-  color:#fff;
-  text-align: left;
-  background-color: rgba(95, 10, 112, 0.8);
-  /* background-image: url(charlotte-panorama-north-carolina.jpg.jpg); */
-}
 
 .start-sidebar-inner {
     padding: 45px 40px;
+}
+
+.start-sidebar > * {
+    z-index: 5;
 }
 
 /* @media screen and (max-width:900px) { */
@@ -86,15 +104,15 @@ footer {
         height: 150px;
     }
 
-    .site-main::before {
+     .start-sidebar::before  {
         width: 100%;
-        height: 25%;
+        height: 237px;
+        /* opacity: 30%; */
     }
 
     .site-main {
         margin-left: 0;
-        margin-top: 25%;
-        padding-top: 35px;
+        margin-top: 237px;
     }
 
     .navItem {
@@ -112,7 +130,7 @@ footer {
     }
     .start-sidebar {
         width:100%;
-        height:25%;
+        height:fit-content;
         justify-content:center;
         align-items: center;
         text-align: center;
