@@ -56,6 +56,50 @@ footer {
  font-weight: 500;
 }
 
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    border: 4px double;
+    /* padding: 20px; */
+    margin: 20px 20px;
+    border-color: rgba(95, 10, 112, 0.8); 
+    height: inherit;
+    width: inherit;
+    /* margin: 20px; */
+}
+
+#pro1 {
+    margin:0;
+    background-image: url("https://centaur-wp.s3.eu-central-1.amazonaws.com/marketingweek/prod/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460");
+}
+.project1 {
+    margin: 20px 30px 20px 30px;
+    width:100%;
+    height: 400px;
+    /* background-image: url("https://centaur-wp.s3.eu-central-1.amazonaws.com/marketingweek/prod/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460"); */
+}
+
+/* played with grid containers/items but couldnt get it to flex when window shrank 
+
+.grid-item {
+
+    padding: 8px 10px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     
+ } */
+
+#projectSec {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .sectionTitle {
     font-size: 35px;
     font-weight: 300;
