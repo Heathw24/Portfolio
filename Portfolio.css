@@ -17,6 +17,12 @@ footer {
     margin-left: 25%;
 }
 
+.navText  {
+    color: white;
+}
+
+
+
 .navItem{
     padding: 25px;
     font-size: 20px;
@@ -66,17 +72,56 @@ footer {
     height: inherit;
     width: inherit;
     /* margin: 20px; */
+    position: relative;
 }
 
 #pro1 {
     margin:0;
     background-image: url("https://centaur-wp.s3.eu-central-1.amazonaws.com/marketingweek/prod/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460");
+    /* background-repeat: no-repeat;
+    background-size:inherit; 
+    Quick attempt to fix backgrounf image */
+
 }
+
+#pro2 {
+    background-image: url("https://s27389.pcdn.co/wp-content/uploads/2017/05/AdobeStock_51875542.jpeg");
+}
+
+#pro3 {
+    background-image: url("https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg");
+}
+
+#pro4 {
+    background-image: url("https://i.pinimg.com/236x/c2/a9/c9/c2a9c9621175a6f04804d0d192a787b0--neon-logo-sg-logo.jpg");
+}
+
+#pro5 {
+    background-image: url("https://images-platform.99static.com//4f-AljZDea80NTdsWo6PQwypUP0=/0x0:1024x1024/fit-in/500x500/99designs-contests-attachments/112/112215/attachment_112215478");
+}
+
 .project1 {
     margin: 20px 30px 20px 30px;
     width:100%;
     height: 400px;
     /* background-image: url("https://centaur-wp.s3.eu-central-1.amazonaws.com/marketingweek/prod/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460"); */
+}
+
+.otherProj {
+    height: 300px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.cardtext {
+    background-color: rgba(95, 10, 112, 0.8);
+    width: 25%;
+    height: auto;
+    color: white;
+    position: absolute;;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
 }
 
 /* played with grid containers/items but couldnt get it to flex when window shrank 
