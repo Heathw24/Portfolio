@@ -11,4 +11,4 @@ Tools used:
 4. Flex
 
 
-![Portfolio Screenshot](assets\img\PorfolioScreenshot.png)
+![Portfolio Screenshot](assets/img/PorfolioScreenshot.png)
