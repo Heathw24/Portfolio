@@ -4,14 +4,28 @@
     border-radius: 50%;
 }
 
+body {
+    font-family: monospace;
+}
+
 .mainSection {
   align-items: center;
   display: flex;
   flex-direction: column;
+  font-weight: 600;
 }
 
+/* ul{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+} */
 .contactMe {
+    display: flex;
+    flex-direction: column;
     color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -26,6 +40,13 @@ h2 {
   padding: 15px;
   margin: 25px;
 }
+
+/* tried to make h2 tags glow when hovering but didnt work as planned. 
+h2:hover {
+    box-shadow:10px 10px 10px 10px rgba(102, 175, 233, 0.6);
+} */
+
+
 
 footer {
     margin-left: 25%;
@@ -91,7 +112,17 @@ footer {
     width: inherit;
     /* margin: 20px; */
     position: relative;
+} 
+
+/* couldnt figure out which class to target to give me the desired effects */
+/* a:hover,*/ .projectCard:hover { 
+/* .otherProj:hover, .project1:hover { */ 
+    border-color: #66afe9;
+    border-radius: 10px;
+    outline: 5;
+    box-shadow:10px 10px 10px 10px rgba(102, 175, 233, 0.6);
 }
+
 
 #pro1 {
     margin:0;
@@ -189,7 +220,7 @@ footer {
     color:#fff;
     text-align: left;
     background-color: rgba(95, 10, 112, 0.8);
-    background-image: url(charlotte-panorama-north-carolina.jpg.jpg);
+    background-image: url(../img/charlotte-panorama-north-carolina.jpg.jpg);
     background-size: cover;
   }
 
