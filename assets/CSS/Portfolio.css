@@ -1,3 +1,11 @@
+:root {
+    --Main: rgba(116, 11, 11, 0.8);
+    --Back: rgba(19, 18, 18, 0.966);
+    --Glow: rgba(71, 7, 7, 0.8);
+
+
+}
+
 .avatar {
     width:152px;
     height: 152px;
@@ -50,7 +58,7 @@ h2:hover {
 
 footer {
     margin-left: 25%;
-    background-color: rgb(2 1 16 / 96%);
+    background-color: var(--Back);
     text-align: center;
     color: white;
 }
@@ -107,7 +115,7 @@ footer {
     border: 4px double;
     /* padding: 20px; */
     margin: 20px 20px;
-    border-color: rgba(95, 10, 112, 0.8); 
+    border-color: var(--Main); 
     height: inherit;
     width: inherit;
     /* margin: 20px; */
@@ -117,10 +125,10 @@ footer {
 /* couldnt figure out which class to target to give me the desired effects */
 /* a:hover,*/ .projectCard:hover { 
 /* .otherProj:hover, .project1:hover { */ 
-    border-color: #66afe9;
+    border-color: var(--Glow);
     border-radius: 10px;
     outline: 5;
-    box-shadow:10px 10px 10px 10px rgba(102, 175, 233, 0.6);
+    box-shadow:10px 10px 10px 10px var(--Glow);
 }
 
 
@@ -163,7 +171,7 @@ footer {
 }
 
 .cardtext {
-    background-color: rgba(95, 10, 112, 0.8);
+    background-color:var(--Main);
     width: 25%;
     height: auto;
     color: white;
@@ -197,15 +205,15 @@ footer {
 .sectionTitle {
     font-size: 35px;
     font-weight: 300;
-    color: rgba(95, 10, 112, 0.8);
+    color: var(--Main);
     text-decoration: underline;
-    text-decoration-color: rgba(95, 10, 112, 0.8);
+    text-decoration-color:var(--Main);
    
 }
 
 .site-main {
     margin-left: 25%;
-    background-color: rgb(2 1 16 / 96%);
+    background-color: var(--Back);
 }
 
 
@@ -219,7 +227,7 @@ footer {
     font-size: 14px;
     color:#fff;
     text-align: left;
-    background-color: rgba(95, 10, 112, 0.8);
+    background-color: var(--Main);
     background-image: url(../img/charlotte-panorama-north-carolina.jpg.jpg);
     background-size: cover;
   }
@@ -236,7 +244,7 @@ footer {
     width: 25%;
     /* background: url(charlotte-panorama-north-carolina.jpg.jpg);
     background-size: cover; */
-    background-color: rgba(95, 10, 112, 0.8);
+    background-color: var(--Main);
 }
 
 
