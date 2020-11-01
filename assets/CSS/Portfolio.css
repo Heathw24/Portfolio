@@ -128,8 +128,8 @@ footer {
     border-color: var(--Glow);
     border-radius: 10px;
     outline: 5;
-    box-shadow:10px 10px 10px 10px var(--Main);
-    box-shadow: var(--Glow);
+    box-shadow:10px 10px 10px 10px rgba(116, 11, 11, 0.8);
+    
 }
 
 
